@@ -1,0 +1,11 @@
+import math
+
+def calcular_combinaciones(N_personas, tamaño_equipo):
+    combinaciones = math.comb(N_personas, tamano_equipo)
+    return combinaciones
+
+# Ejemplo de uso de la función
+total_personas = 15
+tamano_equipo = 7
+resultado = calcular_combinaciones(total_personas, tamano_equipo)
+print("El número total de combinaciones posibles es:", resultado)
